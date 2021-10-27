@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "color__pickerWeb">
+        <div class = "container" id = "container--id">
+            <div class = "container--part">
+                <div class = "header">
+                    Choose a color!
+                </div>
+            </div>
+            
+            <div class="container--part">
+                <div class = "color__hexcode" id = "color__hexcode--id">
+                </div>
+            </div>
+            
+            <div class="container--part">
+                <div class = "choose__color" onclick = "generateRandomColor()">
+                    Choose a color
+                </div>
+                <div class = "choose__color--gradient" onclick = "getRandomGradient()">
+                    Choose a gradient color
+                </div>
+            </div>
+            
+            <div class="container--part">
+                <div class = "copy" id = "copy--id" onclick = "copy()">
+                    Copy
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src ="./js/script.js"></script>
+</body>
+</html>
